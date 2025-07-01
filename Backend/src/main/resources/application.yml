@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Backend
+  datasource:
+    url: jdbc:mysql://localhost:3306/real_time_code_editor
+    username: root
+    password: ab12+-34
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8080
