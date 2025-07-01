@@ -48,7 +48,7 @@ jobs:
           image: adityazaware/realtime-editor-backend
           tags: latest
           registry: docker.io
-          dockerfile: ./Backend/Dockerfile
+          dockerfile: D:\New folder\Real Time Code Editor\Backend\Dockerfile
           buildContext: Backend
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
